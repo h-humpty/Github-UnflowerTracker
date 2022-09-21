@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { CardStyle } from '../styles/cardStyle.css';
 
 const Card = ({ color, data }) => {
-	console.log(data);
+	//console.log(data);
 	return (
 		<div>
 			{data.map(item => (
