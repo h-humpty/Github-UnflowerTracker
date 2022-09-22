@@ -7,16 +7,16 @@ const HeaderStyle = styled.div`
 	.wrapper {
 		width: 320px;
 		display: flex;
-		flex-direction: column;
-		justify-content: center;
 		gap: 1rem;
 		padding: 2rem 1rem;
 		margin: 0 auto;
+		flex-direction: column;
+		justify-content: center;
 
 		.input__wrapper {
 			display: flex;
 			padding-bottom: 5px;
-			border-bottom: 1px solid var(--black);
+			border-bottom: 1px solid black;
 
 			input {
 				width: 100%;
@@ -40,11 +40,11 @@ const HeaderStyle = styled.div`
 			width: 90px;
 			height: 30px;
 			margin: 0 auto;
-			padding: 2px 10px;
-			border-radius: 5px;
+			padding: 2px 15px;
+			border-radius: 10px;
 			border: 0;
-			background-color: var(--blue);
-			color: var(--white);
+			background-color: blue;
+			color: white;
 
 			@media (min-width: 768px) {
 				gap: 0.3rem;
